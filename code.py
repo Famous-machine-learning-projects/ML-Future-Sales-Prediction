@@ -35,18 +35,15 @@ dtype: int64
 """
 
 #Drawing a graph of the amount of sales per advertisement on TV for each unit
-figure = px.scatter(data_frame = data, x="Sales",
-                    y="TV", size="TV", trendline="ols")
+figure = px.scatter(data_frame = data, x="Sales", y="TV", size="TV", trendline="ols")
 figure.show()
 
 #Drawing a graph of the amount of sales per advertisement on NEWSpaper for each unit
-figure = px.scatter(data_frame = data, x="Sales",
-                    y="Newspaper", size="Newspaper", trendline="ols")
+figure = px.scatter(data_frame = data, x="Sales", y="Newspaper", size="Newspaper", trendline="ols")
 figure.show()
 
 #Drawing a graph of the amount of sales per advertisement on Radio for each unit
-figure = px.scatter(data_frame = data, x="Sales",
-                    y="Radio", size="Radio", trendline="ols")
+figure = px.scatter(data_frame = data, x="Sales", y="Radio", size="Radio", trendline="ols")
 figure.show()
 
 correlation = data.corr()
