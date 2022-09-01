@@ -47,7 +47,7 @@ figure = px.scatter(data_frame = data, x="Sales", y="Radio", size="Radio", trend
 figure.show()
 
 correlation = data.corr()
-print(correlation["Sales"].sort_values(ascending=False))
+#print(correlation["Sales"].sort_values(ascending=False))
 """
 OUT:
 Sales        1.000000
