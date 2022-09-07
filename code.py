@@ -71,7 +71,6 @@ print(model.score(xtest, ytest))
 #features = [[TV, Radio, Newspaper]]
 features = np.array([[153.1, 307.8, 9.2]])
 print(model.predict(features))
-
 """
 OUT:
 [44.17037546]
